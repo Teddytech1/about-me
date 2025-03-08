@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header & Subheader */
+.header {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Tanzania.svg/1920px-Flag_of_Tanzania.svg.png') no-repeat center center/cover;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.subheader {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+.main-nav, .sub-nav {
+  margin: 20px 0;
+  text-align: center;
+}
+.main-nav ul, .sub-nav {
+  list-style: none;
+}
+.main-nav ul li, .sub-nav a {
+  display: inline-block;
+  margin: 0 10px;
+}
+.main-nav ul li a, .sub-nav a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+.main-nav ul li a:hover, .sub-nav a:hover {
+  color: #0056b3;
+}
+
+/* Main Content Sections */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+main section, main article {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+/* Forms and Buttons */
+form input[type="text"],
+form input[type="email"],
+#chatInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #218838;
+}
+
+/* Social Icons */
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+/* Platform List */
+.platform-list {
+  list-style: none;
+  text-align: center;
+}
+.platform-list li {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Chat Section */
+#chatBox {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+#chatBox p {
+  margin: 10px 0;
+}
+#chatInputContainer {
+  display: flex;
+}
+#chatInputContainer input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+#chatInputContainer button {
+  padding: 10px;
+  border: none;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+#chatInputContainer button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
